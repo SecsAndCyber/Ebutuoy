@@ -1,0 +1,16 @@
+{
+  "name": "Ebutuoy",
+  "version": "1.0",
+  "description": "Avoid YouTube rabbit holes with Ebutuoy",
+  "background": {
+    "scripts": ["ebutuoy.js", "background.js"],
+    "persistent": true
+  },
+  "permissions": [
+    "webRequest", "webRequestBlocking", "<all_urls>"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "manifest_version": 2
+}
